@@ -1,0 +1,138 @@
+body {
+    background-color: rgb(233, 233, 233);
+}
+
+.container {
+    font-family: Arial;
+    width: 55em;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 2%;
+}
+
+
+
+.row {
+    display: flex;
+    gap: 10px;
+}
+
+.img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.img img {
+    width: 55em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.main-body {
+    display: flex;
+    gap: 3em;
+    
+}
+
+.cont {
+    flex: 2;
+}
+
+.prep {
+    flex: 1;
+}
+
+table td {
+    vertical-align: top;
+}
+
+.material-symbols-outlined {
+    color: rgb(224, 140, 37);
+}
+
+.material-icons {
+    color: rgb(224, 140, 37);
+}
+
+.card {
+    height: 25em;
+    width: 16em;
+    border-radius: 25px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); 
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+}
+
+.one {
+    margin-top: 3em;
+}
+
+#fat {
+    font-size: 50px;
+}
+
+.time-color {
+    color: rgb(105, 103, 103);
+}
+.card-font {
+    color:rgb(105, 103, 103);
+    font-size:0.75em
+}
+.serv {
+    color: rgb(224, 140, 37);
+}
+
+footer {
+    margin-top: 5em;
+    text-align: center;
+    font-family: fantasy;
+}
+
+@media screen and (max-width: 500px) {
+    .container {
+        font-family: Arial;
+        width: 22em;
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-top: 2%;
+    }
+
+    .img img {
+        max-width: 100%;
+        max-height: 100%;
+        margin-top: 2em;
+        margin-bottom: 2em;
+    }
+
+    .main-body {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .card {
+        height: 8em;
+        width: 50em;
+        border-radius: 25px;
+        box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); 
+        font-size: 60%;
+    }
+
+    #fat {
+        font-size: 20px;
+    }
+
+    .convert {
+        border-collapse: collapse; 
+
+    }
+
+    .convert tr { display: block; float: left; }
+
+
+
+  }
+  
+
